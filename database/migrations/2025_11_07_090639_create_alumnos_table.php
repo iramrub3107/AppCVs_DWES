@@ -21,7 +21,8 @@ return new class extends Migration
             $table->text('experiencia')->nullable();
             $table->text('formacion')->nullable();
             $table->text('habilidades')->nullable();
-            $table->string('fotografia')->nullable(); // Ruta de la imagen
+            $table->string('fotografia')->nullable(); //Ruta imagen
+            $table->string('cv_pdf')->nullable(); //Ruta PDF
             $table->timestamps();
         });
     }
